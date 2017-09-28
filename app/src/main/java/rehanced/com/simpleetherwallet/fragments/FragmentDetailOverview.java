@@ -15,6 +15,7 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.InputType;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -270,6 +271,7 @@ public class FragmentDetailOverview extends Fragment implements View.OnClickList
             public void onResponse(Call call, final Response response) throws IOException {
                 try {
                     String restring = response.body().string();
+                    Log.i("FragmentDetailOverview", restring);
                     if(restring != null && restring.length() > 2)
                         RequestCache.getInstance().put(RequestCache.TYPE_TOKEN, ethaddress, restring);
                     token.addAll(ResponseParser.parseTokens(ac, restring, FragmentDetailOverview.this));

@@ -1,10 +1,10 @@
 <resources>
     <string name="translator_name"></string>
 
-    <string name="app_name">Lunary</string>
+    <string name="app_name">GooseCoin</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_main">Lunary</string>
+    <string name="title_activity_main">GooseCoin</string>
 
     <string name="fab_scan">Scan Address / Key</string>
     <string name="fab_add_watch">Lookup Address</string>
@@ -204,7 +204,7 @@
     <string name="notification_wallgen_finished">Wallet Creation Finished!</string>
     <string name="notification_wallimp_finished">Wallet Import Finished!</string>
     <string name="notification_click_to_view">Click to view</string>
-    <string name="ether_and_token">Ether and Token</string>
+    <string name="ether_and_token">Goose and Ether</string>
     <string name="prefs_lock_with_pw">Lock with Password</string>
     <string name="prefs_lock_with_pw_sum">If enabled Lunary will ask you for a password before launching the app</string>
     <string name="prefs_set_pw">Set Password</string>

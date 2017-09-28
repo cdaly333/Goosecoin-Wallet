@@ -39,7 +39,8 @@ public class ExchangeCalculator {
     private CurrencyEntry[] conversionNames = new CurrencyEntry []{
             new CurrencyEntry("ETH", 1, "Ξ"),
             new CurrencyEntry("BTC", 0.07, "฿"),
-            new CurrencyEntry("USD", 0, "$")
+            new CurrencyEntry("USD", 0, "$"),
+            new CurrencyEntry("GOOS", 25000, "Ǥ")
     };
 
     private int index = 0;
