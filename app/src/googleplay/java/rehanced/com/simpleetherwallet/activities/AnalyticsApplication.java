@@ -1,4 +1,4 @@
-package rehanced.com.simpleetherwallet.activities;
+package ca.goosecoin.goosecoinwallet.activities;
 
 import android.app.Application;
 import android.content.Context;
@@ -8,7 +8,7 @@ import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
-import rehanced.com.simpleetherwallet.R;
+import ca.goosecoin.goosecoinwallet.R;
 
 public class AnalyticsApplication extends Application {
     private Tracker mTracker;

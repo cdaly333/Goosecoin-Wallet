@@ -45,7 +45,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
-        <rehanced.com.simpleetherwallet.views.NonSwipeViewPager
+        <ca.goosecoin.goosecoinwallet.views.NonSwipeViewPager
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

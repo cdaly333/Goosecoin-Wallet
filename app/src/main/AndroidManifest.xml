@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rehanced.com.simpleetherwallet">
+    package="ca.goosecoin.goosecoinwallet">
 
     <supports-screens
         android:largeScreens="true"
@@ -44,11 +44,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".activities.AnalyticsApplication"
+        android:name="ca.goosecoin.goosecoinwallet.activities.AnalyticsApplication"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.MainActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.MainActivity"
             android:label="@string/title_activity_main"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar">
@@ -59,50 +59,50 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.AddressDetailActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.AddressDetailActivity"
             android:label="@string/title_activity_main"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.QRScanActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.QRScanActivity"
             android:label="@string/title_activity_main"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activities.WalletGenActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.WalletGenActivity"
             android:label="@string/title_activity_settings"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.RequestEtherActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.RequestEtherActivity"
             android:label="@string/title_activity_settings"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.SendActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.SendActivity"
             android:label="@string/title_activity_settings"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.AppIntroActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.AppIntroActivity"
             android:theme="@style/AppTheme.NoActionBar2"
             android:label="@string/title_activity_main" />
 
         <activity
-            android:name=".activities.AppLockActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.AppLockActivity"
             android:theme="@style/AppTheme.NoActionBar2"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_main" />
 
         <activity
-            android:name=".activities.SetAppLockActivity"
+            android:name="ca.goosecoin.goosecoinwallet.activities.SetAppLockActivity"
             android:theme="@style/AppTheme.NoActionBar2"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
@@ -114,7 +114,7 @@
         </activity>
 
         <receiver
-            android:name=".receiver.BootReceiver"
+            android:name="ca.goosecoin.goosecoinwallet.receiver.BootReceiver"
             android:enabled="true"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
             <intent-filter>
@@ -126,14 +126,14 @@
         </receiver>
 
         <service
-            android:name=".services.NotificationService"
+            android:name="ca.goosecoin.goosecoinwallet.services.NotificationService"
             android:exported="false" />
 
         <service
-            android:name=".services.WalletGenService"
+            android:name="ca.goosecoin.goosecoinwallet.services.WalletGenService"
             android:exported="false" />
         <service
-            android:name=".services.TransactionService"
+            android:name="ca.goosecoin.goosecoinwallet.services.TransactionService"
             android:exported="false" />
     </application>
 
